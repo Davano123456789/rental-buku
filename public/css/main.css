@@ -1,0 +1,48 @@
+.main {
+    height: 100vh;
+}
+
+.body-content {}
+
+.sidebar {
+    background-color: rgb(59, 59, 59);
+    color: white
+}
+
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 10px;
+
+}
+
+.sidebar a:hover {
+    background-color: black;
+}
+
+.active {
+    background-color: black;
+    border-right: 5px solid rgb(255, 123, 0);
+}
+.wrap-card{
+    background-color: rgb(0, 116, 87);
+    padding: 1.5rem 0;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.icon i{
+   font-size: 40px;
+}
+.title h5{
+    font-weight: 400;
+
+}
+.title p{
+    font-size: 20px;
+    text-align: end;
+}
